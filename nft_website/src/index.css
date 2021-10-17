@@ -1,0 +1,59 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+main {
+	width: 100%;
+}
+
+.link {
+	cursor: pointer;
+}
+
+.navLogo {
+	width: 50px;
+	border-radius: 50%;
+}
+
+.banner {
+	background-color: black;
+	width: 100%;
+}
+
+#banner {
+	display: none;
+}
+
+#banner-small {
+	display: block;
+}
+
+@media (min-width: 768px) {
+	#banner {
+		display: block;
+	}
+
+	#banner-small {
+		display: none;
+	}
+}
+
+.charity-image {
+	border: 2px solid rgba(255, 255, 255, 0);
+	border-radius: 1rem;
+	width: 100%;
+}
+
+.cardPrice {
+	vertical-align: middle;
+}
+
+.ethPolygonImage {
+	height: 20px;
+}
+
+#featured {
+	width: 100%;
+}

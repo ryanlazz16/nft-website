@@ -4,6 +4,10 @@ const info = {
 	featuredImage: '/images/FeaturedImage.png',
 	logoImage: '/images/logo.png',
 	ethPolygonImage: '/images/ethPolygon.svg',
+	openseaImage: '/images/opensea.svg',
+	openseaLink: 'https://opensea.io/collection/digital-dialects',
+	twitterImage: '/images/twitter.svg',
+	twitterLink: 'https://twitter.com/DialectsDigital',
 	nfts: [
 		{
 			_id: 1,

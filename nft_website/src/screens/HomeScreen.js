@@ -5,18 +5,20 @@ const HomeScreen = ({ info }) => {
 	return (
 		<>
 			<div className='banner-wrapper'>
-				<img
-					src={info.bannerImage}
-					alt='Banner'
-					className='banner p-5'
-					id='banner'
-				/>
-				<img
-					src={info.bannerImageSmall}
-					alt='Banner'
-					className='banner py-5'
-					id='banner-small'
-				/>
+				<a href={info.openseaLink}>
+					<img
+						src={info.bannerImage}
+						alt='Banner'
+						className='banner p-5'
+						id='banner'
+					/>
+					<img
+						src={info.bannerImageSmall}
+						alt='Banner'
+						className='banner py-5'
+						id='banner-small'
+					/>
+				</a>
 			</div>
 			<Mission charities={info.charities}></Mission>
 			<NFTListings

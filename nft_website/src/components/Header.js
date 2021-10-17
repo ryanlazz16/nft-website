@@ -47,7 +47,7 @@ const Header = ({ info }) => {
 										duration={500}
 										offset={-50}
 									>
-										NFT's
+										NFTs
 									</Link>
 								</li>
 							</Nav>

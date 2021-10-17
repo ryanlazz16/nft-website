@@ -1,5 +1,6 @@
 import Header from './components/Header';
 import HomeScreen from './screens/HomeScreen';
+import Footer from './components/Footer';
 import info from './info.js';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
 			<main>
 				<HomeScreen info={info} />
 			</main>
+			<Footer info={info} />
 		</>
 	);
 }

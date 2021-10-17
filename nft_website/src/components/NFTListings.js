@@ -3,7 +3,7 @@ import Listing from './Listing';
 
 const NFTListings = ({ nfts, ethPolygonImage }) => {
 	return (
-		<Container id='nfts' className='py-3'>
+		<Container id='nfts' className='py-5'>
 			<Row className='justify-content-center'>
 				<Col xs={10} sm={12}>
 					<h3>NFTs</h3>

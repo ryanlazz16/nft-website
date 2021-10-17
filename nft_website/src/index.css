@@ -17,6 +17,10 @@ main {
 	border-radius: 50%;
 }
 
+.banner-wrapper {
+	border-bottom: 1px solid #adafae;
+}
+
 .banner {
 	background-color: black;
 	width: 100%;

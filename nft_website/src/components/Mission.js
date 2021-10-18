@@ -31,7 +31,7 @@ const Mission = ({ charities }) => {
 					<Row>
 						{charities.map((charity) => (
 							<Col
-								className='p-0'
+								className='p-1'
 								key={charity._id}
 								xs={6}
 								sm={3}

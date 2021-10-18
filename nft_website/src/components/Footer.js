@@ -1,8 +1,8 @@
-import { Row, Col, Container } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 
 const Footer = ({ info }) => {
 	return (
-		<footer className='py-2'>
+		<footer id='footer' className='py-2'>
 			<Container>
 				<div
 					className='d-flex justify-content-center align-items-center'

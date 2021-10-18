@@ -37,7 +37,7 @@ const Header = ({ info }) => {
 										Mission
 									</Link>
 								</li>
-								<li className='nfts'>
+								<li className='nav-item'>
 									<Link
 										to='nfts'
 										activeClass='active'
@@ -48,6 +48,20 @@ const Header = ({ info }) => {
 										offset={-50}
 									>
 										NFTs
+									</Link>
+								</li>
+
+								<li className='nav-item'>
+									<Link
+										to='footer'
+										activeClass='active'
+										className='nav-link link'
+										spy={true}
+										smooth={true}
+										duration={500}
+										offset={-50}
+									>
+										Social Media
 									</Link>
 								</li>
 							</Nav>

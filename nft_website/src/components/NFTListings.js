@@ -1,7 +1,21 @@
 import { Row, Col, Container } from 'react-bootstrap';
+import { useState, useEffect } from 'react';
+import axios from 'axios';
 import Listing from './Listing';
 
-const NFTListings = ({ nfts, ethPolygonImage }) => {
+const NFTListings = ({ ethPolygonImage }) => {
+	const [nfts, setNfts] = useState([]);
+
+	useEffect(() => {
+		const fetchNfts = async () => {
+			const { data } = await axios.get('/api/nfts');
+
+			setNfts(data);
+		};
+
+		fetchNfts();
+	}, []);
+
 	return (
 		<Container id='nfts' className='py-5'>
 			<Row className='justify-content-center'>

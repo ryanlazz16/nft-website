@@ -20,9 +20,8 @@ const HomeScreen = ({ info }) => {
 					/>
 				</a>
 			</div>
-			<Mission charities={info.charities}></Mission>
+			<Mission></Mission>
 			<NFTListings
-				nfts={info.nfts}
 				ethPolygonImage={info.ethPolygonImage}
 			></NFTListings>
 		</>

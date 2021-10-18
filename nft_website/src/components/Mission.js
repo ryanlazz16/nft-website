@@ -1,6 +1,20 @@
 import { Row, Col, Container } from 'react-bootstrap';
+import { useState, useEffect } from 'react';
+import axios from 'axios';
 
-const Mission = ({ charities }) => {
+const Mission = () => {
+	const [charities, setCharities] = useState([]);
+
+	useEffect(() => {
+		const fetchCharities = async () => {
+			const { data } = await axios.get('/api/charities');
+
+			setCharities(data);
+		};
+
+		fetchCharities();
+	}, []);
+
 	return (
 		<Container id='mission' className='my-5 py-5'>
 			<Row className='justify-content-center align-items-center'>

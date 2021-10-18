@@ -32,8 +32,7 @@ const Footer = ({ info }) => {
 						>
 							<i
 								id='twitter-footer'
-								className='footer-icon'
-								class='fab fa-twitter'
+								className='footer-icon fab fa-twitter'
 							></i>
 							<p className='m-0 pl-2'>Twitter</p>
 						</button>

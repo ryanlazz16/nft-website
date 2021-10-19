@@ -64,6 +64,9 @@ const Header = ({ info }) => {
 										Social Media
 									</Link>
 								</li>
+								<Nav.Link href={info.openseaLink}>
+									OpenSea
+								</Nav.Link>
 							</Nav>
 						</Navbar.Collapse>
 					</Container>

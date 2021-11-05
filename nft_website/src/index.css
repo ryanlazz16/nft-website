@@ -67,10 +67,6 @@ footer {
 	color: rgb(85, 85, 85);
 }
 
-.footer-icon {
-	height: 25px;
-}
-
 .footer-button {
 	font-size: 20px;
 }
@@ -79,6 +75,14 @@ a:hover {
 	text-decoration-line: none;
 }
 
+#opensea-footer {
+	height: 25px;
+}
+
 #twitter-footer {
 	color: #1da1f2;
+}
+
+#instagram-footer {
+	color: #c13584;
 }

@@ -8,6 +8,7 @@ const info = {
 	openseaLink: 'https://opensea.io/collection/digital-dialects',
 	twitterImage: '/images/twitter.svg',
 	twitterLink: 'https://twitter.com/DialectsDigital',
+	instagramLink: 'https://instagram.com/DigitalDialects',
 	nfts: [
 		{
 			_id: 1,
